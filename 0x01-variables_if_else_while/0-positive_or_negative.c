@@ -2,9 +2,9 @@
 #include <time.h>
 
 /**
- *  * main - Entry Point
- *   * Return: Always(0)
- *    */
+ * main - Entry Point
+ * Return: Always(0)
+ */
 
 int main(void)
 {
@@ -17,7 +17,7 @@ int main(void)
 	else if (n == 0)
 		printf("is zero\n");
 	else
-		printf("is negative");
+		printf("is negative\n");
 
 	return (0);
 }
