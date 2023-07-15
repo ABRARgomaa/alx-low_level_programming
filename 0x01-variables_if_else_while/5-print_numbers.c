@@ -9,7 +9,7 @@ int main(void)
 
 	while (n <= 9)
 	{
-		printf("%i", n);
+		printf("%\ni", n);
 		n++;
 	}
 	return (0);
