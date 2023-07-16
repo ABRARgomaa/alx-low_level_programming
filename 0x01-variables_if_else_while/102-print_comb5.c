@@ -13,8 +13,10 @@ int main(void)
 		{
 			for (c = 0; c < 10; c++)
 			{
-				for (d = c + 1; d < 10; d++)
+				for (d = 0; d < 10; d++)
 				{
+					if (a == 0 && b == 0 && c == 0 $$ d ==0)
+						continue;
 					putchar(a + '0');
 					putchar(b + '0');
 					putchar(' ');
