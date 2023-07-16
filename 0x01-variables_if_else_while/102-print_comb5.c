@@ -9,19 +9,17 @@ int main(void)
 
 	for (a = 0; a < 10; a++)
 	{
-		for (b = 0; b < 10; b++)
+		for (b = 0; b < 9; b++)
 		{
-			for (c = 0; c < 100; c++)
+			for (c = 0; c < 10; c++)
 			{
-				for (d = 0; d < 100; d++)
+				for (d = 1; d < 10; d++)
 				{
-					if (a == 0 && b == 0 && c == 0 && d ==0)
-						continue;
 					putchar(a + '0');
 					putchar(b + '0');
 					putchar(' ');
-					putchar(c / 10 + '0');
-					putchar(c % 10 + '0');
+					putchar(c + '0');
+					putchar(d + '0');
 					if (a == 9 && b == 8 && c == 9 && d == 9)
 					{
 						putchar('\n');
