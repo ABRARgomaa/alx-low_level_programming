@@ -15,7 +15,7 @@ int main(void)
 			{
 				for (d = 0; d < 10; d++)
 				{
-					if (a == 0 && b == 0 && c == 0 $$ d ==0)
+					if (a == 0 && b == 0 && c == 0 && d ==0)
 						continue;
 					putchar(a + '0');
 					putchar(b + '0');
