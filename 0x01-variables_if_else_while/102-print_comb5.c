@@ -5,31 +5,25 @@
  */
 int main(void)
 {
-	int a, b, c, d;
+	int num1, num2;
 
-	for (a = 0; a < 10; a++)
+	for (num1 = 0; num1 < 100; num1++)
 	{
-		for (b = 0; b < 10; b++)
+		for (num2 = num1 + 1; num2 < 100; num2++)
 		{
-			for (c = 0; c < 10; c++)
+			putchar((num1 / 10) + '0');
+			putchar((num1 % 10) + '0');
+			putchar(' ');
+			putchar((num2 / 10) + '0');
+			putchar((num2 % 10) + '0');
+			if (num1 == 98 && num2 == 99)
 			{
-				for (d = 1; d < 10; d++)
-				{
-					putchar(a + '0');
-					putchar(b + '0');
-					putchar(' ');
-					putchar(c + '0');
-					putchar(d + '0');
-					if (a == 9 && b == 8 && c == 9 && d == 9)
-					{
-						putchar('\n');
-					}
-					else
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
+				putchar('\n');
+			}
+			else
+			{
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
