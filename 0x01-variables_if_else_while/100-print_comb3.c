@@ -11,15 +11,14 @@ int main(void)
 	{
 		for (num = n + 1; num < 10; num++)
 		{
+			putchar(n + '0');
+			putchar(num + '0');
 			if (n == 8 && num == 9)
 			{
-				putchar(n + '0');
-				putchar(num + '0');
+				putchar('\n');
 			}
 			else
 			{
-				putchar(n + '0');
-				putchar(num + '0');
 				putchar(',');
 				putchar(' ');
 			}
