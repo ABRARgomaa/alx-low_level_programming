@@ -10,16 +10,21 @@ void print_to_98(int n)
     {
         for (c = n; c >= 98; c--)
         {
-            printf("%d", c);   
+            _putchar(c);
+            _putchar(',');
+            _putchar(' '); 
         }
     }
     else if (n == 98)
-    printf("%d, ", n);
+    _putchar(c + 48);
     else
     {
         for (c = n; c <= 98; c++)
         {
-           printf("%d, ", c); 
+           _putchar(c);
+           _putchar(',');
+           _putchar(' ');
+
         }
     }
     _putchar('\n');
