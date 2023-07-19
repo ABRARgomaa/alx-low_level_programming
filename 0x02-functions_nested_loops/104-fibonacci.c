@@ -14,7 +14,7 @@ int main(void)
 
 		if (f1o > 0)
 			printf("%lu", f1o);
-		initialos = numLength(mx) - 1 - numLength(f1);
+		initialos = numlength(mx) - 1 - numlength(f1);
 
 		while (f1o > 0 && initialos > 0)
 		{
