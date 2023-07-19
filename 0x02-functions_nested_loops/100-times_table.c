@@ -28,17 +28,12 @@ void print_times_table(int n)
 				if (c >= 100)
 				{
 					_putchar((c / 100) + 48);
-					_putchar((c % 100) + 48);
+					_putchar((c % 10) % 10+ 48);
 				}
 				else if (c <= 99 && c >= 10)
 				{
 					_putchar((c / 10) + 48);
 					_putchar((c % 10) + 48);
-				}
-				else
-				{
-
-					_putchar(c + 48);
 				}
 			}
 			_putchar('\n');
