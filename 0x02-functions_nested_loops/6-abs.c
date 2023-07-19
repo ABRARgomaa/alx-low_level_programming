@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _abs - good
- * @int: good
+ * @a: good
  * Return: (0)
  */
 int _abs(int a)
