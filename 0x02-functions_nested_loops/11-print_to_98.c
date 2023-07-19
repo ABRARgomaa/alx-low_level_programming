@@ -16,7 +16,7 @@ void print_to_98(int n)
         }
     }
     else if (n == 98)
-    _putchar(c + 48);
+    _putchar(n + 48);
     else
     {
         for (c = n; c <= 98; c++)
