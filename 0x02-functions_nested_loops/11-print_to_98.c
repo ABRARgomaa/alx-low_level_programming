@@ -14,12 +14,12 @@ void print_to_98(int n)
         }
     }
     else if (n == 98)
-    printf("%d", n);
+    printf("%d, ", n);
     else
     {
         for (c = n; c <= 98; c++)
         {
-           printf("%d", c); 
+           printf("%d, ", c); 
         }
     }
     _putchar('\n');
