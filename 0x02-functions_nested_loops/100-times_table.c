@@ -10,6 +10,8 @@ void print_times_table(int n)
 
 	for (a = 0; a <= n; a++)
 	{
+		if (n > 15 || n < 0)
+			break;
 		_putchar(48);
 		for (b = 1; b <= n; b++)
 		{
