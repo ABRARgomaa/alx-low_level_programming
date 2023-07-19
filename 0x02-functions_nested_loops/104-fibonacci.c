@@ -6,7 +6,7 @@
 int main(void)
 {
 	int n;
-	float n1 = 0, n2 = 1, sum;
+	unsigned long n1 = 0, n2 = 1, sum;
 	for (n = 0; n < 98; n++)
 	{
 		sum = n1 + n2;
