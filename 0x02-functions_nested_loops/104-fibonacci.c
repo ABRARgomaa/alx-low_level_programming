@@ -10,7 +10,7 @@ int main(void)
 	for (n = 0; n < 98; n++)
 	{
 		sum = n1 + n2;
-		printf("%.0f", sum);
+		printf("%lu", sum);
 		n1 = n2;
 		n2 = sum;
 		if (n == 98)
