@@ -16,13 +16,13 @@ void print_times_table(int n)
 			printf("%d, ", c);
 			if (c <= 9)
 			{
-				printf(' ');
+				printf(" ");
 			}
 			if (n > 15 && n < 0)
 			{
 				break;
 			}
 		}
-		printf('\n');
+		printf("\n");
 	}
 }
