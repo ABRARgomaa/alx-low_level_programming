@@ -6,11 +6,11 @@
 int main(void)
 {
 	int n;
-	unsigned int n1 = 0, n2 = 1, sum;
+	float n1 = 0, n2 = 1, sum;
 	for (n = 0; n < 98; n++)
 	{
 		sum = n1 + n2;
-		printf("%u", sum);
+		printf("%.0f", sum);
 		n1 = n2;
 		n2 = sum;
 		if (n == 98)
