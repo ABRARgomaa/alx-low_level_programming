@@ -6,7 +6,7 @@
 int main(void)
 {
 
-	int count, initialos;
+	int count, initial0s;
 	unsigned long f1 = 1, f2 = 2, sum, mx = 100000000, f1o = 0, f2o = 0, sumo = 0;
 
 	for (count = 1; count < 98; count++)
@@ -14,13 +14,13 @@ int main(void)
 
 		if (f1o > 0)
 			printf("%lu", f1o);
-		initialos = numlength(mx) - 1 - numlength(f1);
+		initial0s = numlength(mx) - 1 - numlength(f1);
 
-		while (f1o > 0 && initialos > 0)
+		while (f1o > 0 && initial0s > 0)
 		{
 
 			printf("%d", 0);
-			initialos--;
+			initial0s--;
 		}
 
 		printf("%lu", f1);
