@@ -2,8 +2,10 @@
 #include "main.h"
 /**
  * print_line - good
+ * @n: good
  */
 void print_line(int n)
+
 {
 	int c;
 
