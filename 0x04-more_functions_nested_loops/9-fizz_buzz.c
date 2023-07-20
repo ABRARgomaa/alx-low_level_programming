@@ -4,18 +4,30 @@
  * Return: (0)
  */
 int main(void)
+
 {
 	int n;
 
 	for (n = 1; n <= 100; n++)
 	{
-		printf("%d ", n);
 		if ((n % 3) == 0)
+		{
 			printf("Fizz ");
+			continue;
+		}
 		if ((n % 5) == 0)
+		{
 			printf("Buzz ");
+			continue;
+		}
 		if ((n % 3) == 0 && (n % 5) == 0)
-			printf("FizzBuzz");
+		{
+			printf("FizzBuzz ");
+			continue;
+		}
+		else
+			printf("%d ", n);
 	}
-	printf("/n");
+	printf("\n");
+	return (0);
 }
