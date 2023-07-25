@@ -8,12 +8,12 @@ void puts_half(char *str)
 {
 	int length, start_index, i;
 
-length = 0;
+length = -1;
 	while (str[length] != '\0')
 	{
 		length++;
 	}
-	start_index = (length - 2) / 2;
+	start_index = (length - 1) / 2;
 	for (i = start_index; i < length; i++)
 	{
 		putchar(str[i]);
