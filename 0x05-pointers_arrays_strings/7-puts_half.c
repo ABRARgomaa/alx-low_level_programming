@@ -6,16 +6,23 @@
  */
 void puts_half(char *str)
 {
-	int l, i;
-	char temp;
-	for (l = 0; str[l] != '\0'; l++)
-		;
-	for (i = 0; i < l / 2; i++)
+	int length = 0;
+
+	// Calculate the length of the string
+	while (str[length] != '\0')
 	{
-		temp = str[i];
-		str[i] = str[l - 1 - i];
-		str[l - 1 - i] = temp;
-		putchar(temp + 0);
+		length++;
 	}
+
+	// Calculate the starting index for the second half of the string
+	int start_index = (length - 1) / 2;
+
+	// Print the second half of the string
+	for (int i = start_index; i < length; i++)
+	{
+		putchar(str[i]);
+	}
+
+	// Print a new line
 	putchar('\n');
 }
