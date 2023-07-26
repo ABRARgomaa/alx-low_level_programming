@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #include "main.h"
 /**
  * *_strcat - good
@@ -9,6 +8,16 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	strcat(dest, src);
-	return (0);
+	char *ptr = dest;
+
+	while (*ptr)
+		ptr++;
+	while (*src)
+	{
+		*ptr = *src;
+		ptr++;
+		src++;
+	}
+	*ptr = '\0';
+       	return dest;
 }
