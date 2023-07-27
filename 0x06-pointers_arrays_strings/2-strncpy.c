@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
+ * *_strncpy - good
+ * @dest: good
+ * @src: good
+ * @n: good
+ * Return: (0)
  */
 char *_strncpy(char *dest, char *src, int n)
 {
