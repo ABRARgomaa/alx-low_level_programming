@@ -3,6 +3,7 @@
 /**
  * print_chessboard - good
  * @a: good
+ * Return: (0)
  */
 void print_chessboard(char (*a)[8])
 {
@@ -15,6 +16,7 @@ void print_chessboard(char (*a)[8])
 		putchar(a[l][j]);
 		}
 	putchar('\n');
-	}	
+	}
+return (0);	
 }
 
