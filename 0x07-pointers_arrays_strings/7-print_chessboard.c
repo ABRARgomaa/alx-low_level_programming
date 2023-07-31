@@ -4,9 +4,20 @@
  * print_chessboard - good
  * @a: good
  */
-void print_chessboard(char (*a)[8])
+void print_chessboard(char *a)
 {
-	print_chessboard((a)[8]);
+	char a[l][j];
+
+	for (l = 0; l < 8; l++)
+	{
+		for (j = 0; j < 8; j++)
+		{
+			printf ("a[l][j]");
+			if (j == 8)
+			{
+				printf("\n");
+			}
+		}
+	}
 	return (0);
 }
-
