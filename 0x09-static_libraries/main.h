@@ -1,4 +1,3 @@
-#!/bin/bash
 #ifndef MIAN_H
 #define MIAN_H
 int _putchar(char c);
