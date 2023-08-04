@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include "main.h"
 /**
- * main - good
+ * main - Entry Point
  * @argc: good
  * @argv: good
  * Return: (0)
@@ -12,3 +11,4 @@ int main(int argc, char **argv)
 	printf("%s \n", argv[0]);
 	return (0);
 }
+
