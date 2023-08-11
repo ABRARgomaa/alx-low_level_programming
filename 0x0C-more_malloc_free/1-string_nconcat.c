@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.hi"
 #include <stdlib.h>
 #include <string.h>
 /**
@@ -26,7 +26,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	for (i = 0; i < a1; i++)
 		huh[i] = s1[i];
-	for (m = 0; m < n; m++)
+	for (m = 0; m < n && s2[m] != '\0'; m++)
 		huh[i + m] = s2[m];
 	huh[i + m] = '\0';
 	return (huh);
