@@ -2,6 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
+ * *_calloc - good
+ * @nmemb: good
+ * @size: good
+ * Return: (0)
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
@@ -12,6 +16,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	a = malloc(nmemb * size);
 	if (a == NULL)
 		return (NULL);
-	a = 0;
 	return (a);
 }
+
