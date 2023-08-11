@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+
 /**
  * *_calloc - good
  * @nmemb: good
@@ -16,6 +18,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	a = malloc(nmemb * size);
 	if (a == NULL)
 		return (NULL);
-	return (a);
+	memset(a, 0, nmemb * size);
 }
 
