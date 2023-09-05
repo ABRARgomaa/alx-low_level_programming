@@ -11,11 +11,11 @@
  * error_and_exit - good
  * @exit_code: good
  * @format: good
- * @arg: good
  */
 void error_and_exit(int exit_code, const char *format, ...)
 {
 	va_list args;
+
 	va_start(args, format);
 	vdprintf(2, format, args);
 	va_end(args);
