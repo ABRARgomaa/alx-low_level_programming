@@ -6,7 +6,7 @@
  * add_dnodeint_end - adds
  * @head: node
  * @n: data
- * Return : node
+ * Return: node
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
@@ -25,6 +25,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	else
 	{
 		dlistint_t *current;
+
 		current = *head;
 		while (current->next != NULL)
 			current = current->next;
